@@ -26,3 +26,4 @@ A volume of 166 would give a weight of 331/166, or 1, while a volume of 167 woul
 Here's an improved version of the dimensional weight program in which the user enters the dimensions. Note that each call of scanf is immediately preceded by a call of printf. That way, the user will know when to enter input and what input to enter.
 
 ---
+
