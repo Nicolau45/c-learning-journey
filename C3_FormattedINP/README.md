@@ -14,3 +14,21 @@ Books are identified by an International Standard Book Number (ISBN). ISBNs assi
 >Check digit: 3
 
 Note: The number of digits in each group may vary; you can't assume that groups have the lengths shown in this example. Test your program with actual ISBN values (usually found on the back cover of a book and on the copyright page).
+
+## ex05.c
+
+Write a program that asks the user to enter the numbers from 1 to 16 (in any order) and then displays the numbers in a 4 by 4 arrangement, followed by the sums of the rows, columns, and diagonals:
+
+>Enter the numbers from 1 to 16 in any order:
+>16 3 2 13 5 10 11 8 9 6 7 12 4 15 141
+
+>16 3 2 13
+>5 10 11 8
+>9 6 7 12
+>4 15 14 1
+
+>Row sums: 34 34 34 34
+>Column sums: 34 34 34 34
+>Diagonal sums: 34 34
+
+If the row, column, and diagonal sums are all the same (as they are in this example), the numbers are said to form amagic square. The magic square shown here appears in a 1514 engraving by artist and mathematician Albrecht Dürer. (Note that the middle numbers in the last row give the date of the engraving.)
